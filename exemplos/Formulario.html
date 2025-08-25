@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>formulario</title>
+</head>
+<body>
+<h1>Formulario</h1>
+
+
+<form>
+    <label for="input_nome">Nome:</label>
+    <input id="input_nome" type="text" placeholder="nome" required>
+    <br>
+    <br>
+    <br>
+    <label for="input_email">Email:</label>
+    <input id="input_email" type="email" placeholder="heitortakase@gmail.com" required>
+    <br>
+    <br>
+    <br>
+    <label for="input_senha">Senha:</label>
+    <input id="input_senha" type="password" required>
+    <br>
+    <br>
+    <br>
+    <label for="input_mensagem">Descrição :</label>
+    <br>
+    <textarea id="input_mensagem" rows="4" cols="50"></textarea>
+    <br>
+    <br>
+    <br>
+    <br>
+    <label>Gênero</label>
+    <br>
+    <input id="Radio_m" type="radio" name="genero" value="masculino">Masculino
+    <br>
+    <input id="Radio_f" type="radio" name="genero" value="feminino">Feminino
+    <br>
+    <br>
+    <br>
+    <label for="menu_cidade">Cidade</label>
+    <select id="menu_cidade">
+        <optgroup label="Interior">
+            <option>Guararapes</option>
+            <option>Birigui</option>
+            <option>Rubiacea</option>
+            <option>Araçatuba</option>
+        </optgroup>
+        <optgroup label="Capitais">
+            <option>São Paulo</option>
+            <option>Rio De Janeiro</option>
+            <option>Brasilia</option>
+
+        </optgroup>
+
+
+    </select>
+    <br>
+    <br>
+    <br>
+    <button type="submit">Salvar</button>
+    <button type="reset">Limpar</button>
+
+</form>
+</body>
+</html>

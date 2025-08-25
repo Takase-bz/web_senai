@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ex2</title>
+</head>
+<body>
+<form>
+    <label for="input_nome">Nome Do Produto:</label>
+    <input id="input_nome" type="text" placeholder="nome" required>
+    <br>
+    <br>
+    <label for="input_mensagem">Descrição:</label>
+    <br>
+    <textarea id="input_mensagem" rows="4" cols="50" required></textarea>
+    <br>
+    <br>
+    <br>
+    <label for="menu_categoria">Categorias</label>
+    <select id="menu_categoria" required>
+        <optgroup label="Categorias">
+            <option></option>
+            <option>Eletrônicos</option>
+            <option>Livros</option>
+            <option>Brinquedos</option>
+            <option>Esportes</option>
+            <option>Calçados</option>
+        </optgroup>
+    </select>
+    <br>
+    <br>
+    <br>
+    <label for="menu_pais">Pais</label>
+    <br>
+    <select id="menu_pais" required>
+        <optgroup label="Pais">
+            <option>China</option>
+            <option>Brasil</option>
+            <option>Estados Unidos</option>
+            <option>Japão</option>
+            <option>Alemanha</option>
+        </optgroup>
+    </select>
+    <label for="input_numero">Preço</label>
+    <input type="number" id="input_numero" required>
+    <br>
+    <br>
+    <br>
+    <label for="input_data">Data de Criação</label>
+    <input type="date" id="input_data" required>
+    <br>
+    <br>
+    <br>
+    <button type="submit">enviar</button>
+    <button type="reset">redefinir</button>
+
+</form>
+</body>
+</html>

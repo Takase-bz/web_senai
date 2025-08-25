@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>easdasd</title>
+</head>
+<body>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Modelo HTML5 - PyCharm</title>
+    <meta name="description" content="Exemplo de página HTML5 pronta para PyCharm">
+    <!-- Estilos básicos -->
+    <style>
+        :root {
+            --cor-primaria: #4a90e2;
+            --cor-secundaria: #2c3e50;
+            --bg: #f5f7fa;
+            --texto: #1e1e1e;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        html, body { height: 100%; font-family: Arial, sans-serif; background: var(--bg); color: var(--texto); }
+        header {
+            background: var(--cor-primaria);
+            color: white;
+            padding: 1rem 2rem;
+        }
+        header h1 { font-size: 1.75rem; }
+        nav a {
+            color: white;
+            margin-right: 1rem;
+            text-decoration: none;
+        }
+        main {
+            padding: 2rem;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        .card {
+            background: white;
+            border-radius: 8px;
+            padding: 1.5rem;
+            box-shadow: 0 2px 6px rgba(0,0,0,.08);
+            margin-bottom: 1.5rem;
+        }
+        footer {
+            text-align: center; padding: 1rem; color: #666;
+        }
+        @media (max-width: 768px) {
+            header { text-align: center; }
+            nav { margin-top: 0.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Modelo HTML5</h1>
+        <nav aria-label="Navegação principal">
+            <a href="#">Início</a>
+            <a href="#">Sobre</a>
+            <a href="#">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Seção de apresentação -->
+        <section class="card" aria-label="Apresentação">
+            <h2>Bem-vindo ao modelo</h2>
+            <p>Este é um modelo básico em HTML5 para uso no PyCharm. Edite este conteúdo para atender às suas necessidades.</p>
+        </section>
+
+        <!-- Exemplo de grid com imagem e texto -->
+        <section class="card" aria-label="Conteúdo com imagem">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+                <div>
+                    <h3>Imagem de Exemplo</h3>
+                    <p>Descreva o que está na imagem ou o objetivo do conteúdo ao lado.</p>
+                </div>
+                <div>
+                    <img src="https://via.placeholder.com/500x300" alt="Imagem de exemplo" style="width:100%; height:auto; border-radius:6px;">
+                </div>
+            </div>
+        </section>
+
+        <!-- Formulário simples (opcional) -->
+        <section class="card" aria-label="Formulário de contato">
+            <h2>Contato</h2>
+            <form action="#" method="post" onsubmit="return false;">
+                <div style="margin-bottom:0.75rem;">
+                    <label for="nome">Nome:</label><br>
+                    <input type="text" id="nome" name="nome" required style="width:100%; padding:0.5rem; border:1px solid #ccc; border-radius:4px;">
+                </div>
+                <div style="margin-bottom:0.75rem;">
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required style="width:100%; padding:0.5rem; border:1px solid #ccc; border-radius:4px;">
+                </div>
+                <div style="margin-bottom:0.75rem;">
+                    <label for="mensagem">Mensagem:</label><br>
+                    <textarea id="mensagem" name="mensagem" rows="4" style="width:100%; padding:0.5rem; border:1px solid #ccc; border-radius:4px;"></textarea>
+                </div>
+                <button type="submit" style="padding:0.6rem 1rem; background:var(--cor-primaria); color:white; border:none; border-radius:4px;">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2025 Seu Nome. Todos os direitos reservados.
+    </footer>
+</body>
+</html>
+</body>
+</html>
