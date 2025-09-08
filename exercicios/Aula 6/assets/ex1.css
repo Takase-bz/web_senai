@@ -1,0 +1,16 @@
+.title-centro {
+    color: red;
+    text-align: center;
+}
+
+p {
+    color: white;
+    background: red;
+    font-size: 36px;
+    font-family: arial;
+    text-align: center;
+}
+
+body {
+    background:black;
+}

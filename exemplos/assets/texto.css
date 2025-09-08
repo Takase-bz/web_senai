@@ -1,0 +1,22 @@
+p {
+    color: red;
+}
+
+.text-black {
+    color: mediumpurple;
+    background: black;
+    display: inline;
+}
+
+#text-maior {
+    font-size: 59px;
+    font-family: "French Script MT", cursive;
+
+}
+
+#text-maior:hover {
+    color: blue;
+    font-size: 59px;
+    font-family: "French Script MT", cursive;
+
+}

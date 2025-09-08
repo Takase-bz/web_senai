@@ -1,0 +1,78 @@
+.titulo-central {
+    text-align: center;
+}
+
+body {
+    background:#F5ED8C;
+}
+.backgraund-white {
+    background: white;
+}
+.color-verde {
+    color: darkgreen;
+    background: gray;
+}
+
+.color-VERMELHO {
+    color:darkred;
+    background: gray;
+    text-align: center;
+}
+
+
+.color-azul {
+    color:darkblue;
+    background: gray;
+    text-align: right;
+}
+
+.color-roxo {
+    color:rebeccapurple;
+    background: gray;
+    text-align: center;
+}
+
+.color-amarelo {
+    color:#F5ED8C;
+    background: gray;
+}
+.color-rosa {
+    color: deeppink;
+    background: gray;
+    text-align: center;
+}
+
+p {
+    background: white;
+}
+
+.color-verde:hover {
+    color: black;
+    background: white;
+    text-align: left;
+}
+.color-VERMELHO:hover {
+    color: black;
+    background: white;
+    text-align: left;
+}
+.color-azul:hover {
+    color: black;
+    background: white;
+    text-align: left;
+}
+.color-roxo:hover {
+    color: black;
+    background: white;
+    text-align: left;
+}
+.color-amarelo:hover {
+    color: black;
+    background: white;
+    text-align: left;
+}
+.color-rosa:hover {
+    color: black;
+    background: white;
+    text-align: left;
+}
