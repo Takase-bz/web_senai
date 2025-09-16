@@ -1,0 +1,27 @@
+.color-green {
+    background: green;
+    height: 100px;
+}
+.color-blue {
+    width: 49.8%;
+    height: 200px;
+    background: blue;
+    display: inline-block;
+}
+.color-yellow {
+    width: 49.8%;
+    height: 200px;
+    background: yellow;
+    display: inline-block;
+
+}
+
+.color-green {
+    background: green;
+    height: 100px;
+}
+
+body {
+    background: lightblue;
+
+}
