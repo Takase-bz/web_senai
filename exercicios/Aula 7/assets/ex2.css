@@ -1,0 +1,42 @@
+body{
+    background: lightblue;
+    text-align: center;
+}
+
+.color-green1{
+    background: green;
+    height: 250px;
+    width: 20%;
+    border-radius: 10px;
+    display: inline-block;
+
+}
+
+.color-blue{
+    background: blue;
+    height: 250px;
+    width: 17%;
+    border-radius: 1000000000px;
+    display: inline-block;
+
+
+}
+
+
+.color-yellow{
+    background: yellow;
+    height: 250px;
+    width: 20%;
+    border-radius: 20px;
+    display: inline-block;
+
+}
+
+.color-green2{
+    background: green;
+    height: 200px;
+    border-radius: 40px;
+    width: 60%;
+    display: inline-block;
+
+}
