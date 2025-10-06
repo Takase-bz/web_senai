@@ -1,0 +1,52 @@
+body {
+    margin: 25px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.roxo {
+    display: flex;
+    background-color: rebeccapurple;
+    padding: 20px;
+    margin-bottom: 25px;
+    justify-content: space-between;
+}
+.logo {
+    display: flex;
+    flex-direction: row;
+    font-size: 22px;
+    align-items: center;
+    font-family: "Arial Black";
+}
+.lista {
+    display: flex;
+    justify-content: space-between;
+
+}
+.lista div{
+    display: flex;
+    margin: 10px;
+}
+
+.cinza {
+    display: flex;
+    background-color: lightgray;
+    height: 300px;
+    margin-bottom: 25px;
+}
+
+.section {
+    display: flex;
+
+
+
+}
+
+.section div {
+    display: flex;
+    background-color: lightgray;
+    height: 250px;
+    flex: auto;
+    margin-left: 20px;
+}
