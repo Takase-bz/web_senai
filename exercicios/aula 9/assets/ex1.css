@@ -7,11 +7,15 @@ table, td , th {
     margin: 0px auto;
 }
 thead {
+
     background: royalblue;
 }
 
 h4 {
-   text-align: center;
+   text-align: center
+;
     color: darkblue;
+
 }
+
 
