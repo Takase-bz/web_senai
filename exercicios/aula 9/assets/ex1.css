@@ -1,0 +1,17 @@
+table, td , th {
+    border: 1px solid black;
+    color: black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 10px;
+    margin: 0px auto;
+}
+thead {
+    background: royalblue;
+}
+
+h4 {
+   text-align: center;
+    color: darkblue;
+}
+

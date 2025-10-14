@@ -1,0 +1,9 @@
+table, td , th {
+    border: 1px solid black;
+    color: black;
+    border-collapse: collapse;
+    text-align: center;
+}
+thead {
+    background: #1e88e5;
+}

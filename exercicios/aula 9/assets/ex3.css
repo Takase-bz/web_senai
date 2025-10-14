@@ -1,0 +1,66 @@
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background: darkred;
+    font-family: arial;
+    padding: 10px;
+}
+
+.cabeçalho {
+    color: dodgerblue;
+    background: darkblue;
+    padding: 10px
+}
+
+.verde {
+    color: lawngreen;
+    background: darkblue;
+    text-align: center;
+    padding: 10px
+}
+
+.azul {
+    color: cornflowerblue;
+    background: darkblue;
+    text-align: center;
+}
+
+.amarelo {
+    color: yellow;
+    background: darkblue;
+    text-align: center;
+}
+
+.branco {
+    color: white;
+    background: darkblue;
+    text-align: center;
+}
+
+.vermelho {
+    color: red;
+    background: darkblue;
+    text-align: center;
+}
+
+.fundo-azul {
+    background: deepskyblue;
+    color: darkblue;
+
+}
+
+td, th {
+    border: 1px solid black;
+    color: cornflowerblue;
+    background: darkblue;
+    text-align: center;
+    padding: 10px
+
+}
+
+.time {
+    background: white;
+    color: darkblue;
+    padding: 10px;
+    text-align: left;
+}
